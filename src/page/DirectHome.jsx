@@ -12,7 +12,7 @@ import ProductionSection from "./components/productSection/ProductionSection";
 import SellingSection from "./components/sellingSection/SellingSection";
 import TestimonialSection from "./components/testimonialSection/TeatimonialSection";
 import ThreeStepGuide from "./components/threeStepGuide/ThreeStepGuide";
-import TopSection from "./components/topSection/topSection";
+import TopSection from "./components/topSection/TopSection";
 
 function DirectHome() {
   return (
