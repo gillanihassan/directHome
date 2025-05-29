@@ -40,22 +40,29 @@ function Register() {
                       className="d-flex w-100"
                     >
                       <ToggleButton
+                        as={Link}
+                        to="/"
                         size="lg"
-                        variant="lig"
+                        variant="light"
                         id="tbg-btn-1"
                         value={1}
                         className="w-50 me-2"
-                        // as={Link}
-                        // to="/"
-                        href="/"
                       >
-                        Login
+                        <Link
+                          to="/"
+                          className="text-black text-decoration-none "
+                        >
+                          Login
+                        </Link>
                       </ToggleButton>
+
                       <ToggleButton
+                        as={Link}
+                        to="/register"
                         id="tbg-btn-2"
                         variant="light"
                         value={2}
-                        className="w-50"
+                        className="w-50 text-black fs-5"
                       >
                         Register
                       </ToggleButton>

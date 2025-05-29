@@ -29,12 +29,16 @@ function Signin() {
             <Image src={homeLogo} className="mt-5" />
             <div className={`${styles.formDiv}`}>
               <Form className="mt-4 p-4">
-                <div className="d-flex justify-content-center mt-3 mb-4">
+                {/* <div className="d-flex justify-content-center mt-3 mb-4">
                   <div
                     className="px-3 py-2 rounded-1 w-100"
                     style={{ background: "#F5F5F5" }}
                   >
-                    <ToggleButtonGroup type="checkbox" value={"aa"}>
+                    <ToggleButtonGroup
+                      className="w-full"
+                      type="checkbox"
+                      value={"aa"}
+                    >
                       <ToggleButton
                         size="lg"
                         variant="light"
@@ -52,7 +56,52 @@ function Signin() {
                         as={Link}
                         to="/register"
                       >
-                        Register
+                        <Link
+                          to="/register"
+                          className="text-black text-decoration-none fs-5"
+                        >
+                          Register
+                        </Link>
+                      </ToggleButton>
+                    </ToggleButtonGroup>
+                  </div>
+                </div> */}
+                <div className="d-flex justify-content-center mt-3 mb-4">
+                  <div
+                    className="px-3 py-2 rounded-1 w-100"
+                    style={{ background: "#F5F5F5" }}
+                  >
+                    <ToggleButtonGroup
+                      type="checkbox"
+                      value={"aa"}
+                      className="d-flex w-100"
+                    >
+                      <ToggleButton
+                        as={Link}
+                        to="/"
+                        size="lg"
+                        variant="light"
+                        id="tbg-btn-1"
+                        value={1}
+                        className="w-50 me-2"
+                      >
+                        Login
+                      </ToggleButton>
+
+                      <ToggleButton
+                        as={Link}
+                        to="/register"
+                        id="tbg-btn-2"
+                        variant="light"
+                        value={2}
+                        className="w-50 text-black fs-5"
+                      >
+                        <Link
+                          to="/register"
+                          className="text-black text-decoration-none fs-5"
+                        >
+                          Register
+                        </Link>{" "}
                       </ToggleButton>
                     </ToggleButtonGroup>
                   </div>
