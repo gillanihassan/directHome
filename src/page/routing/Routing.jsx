@@ -1,6 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Signin from "../auth/signin/Signin";
-import DirectHome from "../directHome";
+import DirectHome from "../DirectHome";
 import Register from "../auth/register/Register";
 
 function Routing() {
