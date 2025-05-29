@@ -1,0 +1,61 @@
+.mainContainer{
+  /* height: 100vh;
+  width: 100vw; */
+}
+.customRow{
+  height: 100vh;
+}
+.leftColumn{
+  background-color: #004F59;
+}
+.formDiv{
+  background-color: #FFFFFF;
+  border-radius: 9px;
+}
+.customHeading{
+  color: #000000;
+  font-family: "Inter";
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.formLabel{
+  color: #0F172A;
+  font-weight: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+}
+.customButtonOne{
+  background-color: #D8A53F ;
+  border: none;
+  padding: 12px 16px ;
+  color: #FFFFFF ;
+  border-radius: 8px ;
+  font-family: "Inter" ;
+  font-size: 14px ;
+  font-weight: 600 ;
+  line-height: 24px ;
+}
+.customButtonTwo{
+  background-color: #FFFFFF;
+  border: 1px solid #EAD2A5;
+  padding: 12px 16px ;
+  color:  #475569;
+  border-radius: 8px ;
+  font-family: "Inter" ;
+  font-size: 14px ;
+  font-weight: 600 ;
+  line-height: 24px ;
+}
+.footerPara{
+  color: #475569;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerSpan{
+  color: #D8A53F;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}

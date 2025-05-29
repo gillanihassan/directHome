@@ -1,0 +1,97 @@
+.topHeading {
+  color: #000000;
+  font-weight: 600;
+  font-size: 35px;
+  font-family: "Inter";
+}
+.topPara {
+  color: #808080;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+}
+.cardOne {
+  background-color: #ead2a5;
+}
+
+.cardDiv {
+  min-height: 320px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.cardPara {
+  color: #0c2340;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+}
+.cardTwo {
+  background-color: #ead2a5;
+}
+.cardTwoHeading {
+  color: #111235;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+}
+.cardTwoPara {
+  color: #111235;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+}
+.cardTwoImgPara {
+  color: #6c6c6c;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 12px;
+}
+.cardTimePara {
+  color: gray;
+}
+.cardParaThreeLeft {
+  display: inline;
+  background-color: #004f59;
+  padding: 10px 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+  .cardParaThreeLeft {
+    font-size: 10px;
+  }
+}
+
+.cardParaThreeRight {
+  display: inline;
+  background-color: #d8a53f;
+  padding: 10px 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 13px;
+}
+.footerHeading {
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+}
+.footerPara {
+  color: #808080;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+  max-width: 216px;
+}

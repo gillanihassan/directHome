@@ -1,0 +1,42 @@
+.mainDiv{
+  /* border: 2px solid red; */
+}
+.customButton{
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #004F59;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Inter";
+}
+.customButton:hover{
+  background-color: #FFFFFF;
+  color: #004F59;
+}
+.customHeading{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-size: 35px;
+  width: 100%;
+  max-width: 600px;
+}
+.columnHeading{
+  color: #0B1B32;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 26px;
+  border-bottom: 1px solid #0B1B324D;
+  margin-bottom: 5rem;
+}
+.leftColPara{
+  color: #0B1B32;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+}
+.rightColPara{
+  color: #808080;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 400;
+}

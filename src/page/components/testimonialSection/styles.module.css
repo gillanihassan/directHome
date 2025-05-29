@@ -1,0 +1,36 @@
+.mainDiv{
+  background-color: #E6F6F8;
+  padding: 4rem;
+  margin-top: 3.5rem;
+  height: 597px;
+  /* border: 2px solid red; */
+}
+.topHeading{
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 35px;
+}
+.customImage{
+  width: "408px";
+  height: "463";
+}
+.customPara{
+  color: #808080;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (max-width: 985px) {
+  .mainDiv{
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .contentDiv{
+    /* margin-top: 2rem; */
+  }
+  .mainDiv{
+    height: 560px;
+  }
+}

@@ -1,0 +1,51 @@
+.mainDiv{
+  /* background: linear-gradient(to bottom, #000000, #66666600), #004F59; */
+background: linear-gradient( #353333, #66666600), #004F59;}
+.customHeading{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 50px;
+  width: 100%;
+  max-width: 670px;
+}
+.customPara{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Bottom Section  */
+.bottomBtn{
+  background-color: #E3F3F3;
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+.bottomBtn:hover{
+  background-color: #E3F3F3;
+  color: #000000;
+}
+.bottomBtnTwo{
+  background-color: #E3F3F3;
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+.bottomBtnTwo:hover{
+  background-color: #E3F3F3;
+  color: #000000;
+}
+.formBtn{
+  background-color: #004F59;
+  border: none;
+  
+}
+.formBtn:hover{
+  background-color: #004F59;
+}

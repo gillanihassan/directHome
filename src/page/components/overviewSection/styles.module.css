@@ -1,0 +1,78 @@
+.topHeading{
+  font-family: "Inter";
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+}
+.topPara{
+  color: #808080;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+}
+.card{
+  border-radius: 23px;
+}
+.overLayDiv{
+  border-radius: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #025858A1 63%, #001C1C7D 87%);
+z-index: 1;
+}
+.cardTitle{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+  width: 100%;
+  max-width: 390px;
+}
+.cardText{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+}
+.bottomDiv{
+  background: #E0AF54;
+  border-radius: 28px;
+}
+.bottomHeading{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+}
+.bottomPara{
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+}
+.inputGroupText{
+  padding: 20px;
+  width: 6rem;
+  text-align: center;
+  background-color: #004F59;
+  color: #FFFFFF;
+  border: none;
+}
+@media (max-width: 768px) {
+  .mainDiv{
+    margin-top: 24rem;
+  }
+}
+@media (max-width: 576px) {
+  .mainDiv{
+    margin-top: 29rem;
+  }
+}
+@media (max-width: 476px) {
+  .mainDiv{
+    margin-top: 33rem;
+  }
+}

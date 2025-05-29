@@ -1,0 +1,49 @@
+.mainDiv{
+  /* border: 2px solid red; */
+  background-color: #E3F3F3;
+  border-radius: 28px;
+  padding: 20px;
+}
+.mainHeading{
+  color: #004F59;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 38px;
+}
+.formDiv{
+  background-color: #FFFFFF;
+  border-radius: 13px;
+  padding: 16px;
+}
+.formLabel{
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+}
+.inputGroup{
+  background-color: #EAD2A5;
+}
+.customBtn{
+  background-color: #004F59;
+  padding: 9px 20px;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+.customBtn:hover{
+  background-color: #004F59;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .mainDiv{
+    padding: 7px;
+  }
+  .mainHeading{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+}

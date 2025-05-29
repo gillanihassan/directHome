@@ -1,0 +1,21 @@
+.col{
+  /* border: 2px solid red; */
+  background-color: linear-gradient(to right,rgb(0, 255, 255), #00828233);
+}
+.card{
+  width: 25rem;
+  background: linear-gradient(to right, #00828233 100%, #E3F3F3 10%);
+  border: none;
+}
+.CardHeading{
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 25px;
+}
+.cardPara{
+  color: #004F59;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+}
