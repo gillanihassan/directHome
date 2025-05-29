@@ -10,10 +10,11 @@ import {
 import styles from "./styles.module.css";
 import circle from "../../../assets/images/threeStepGuide/circle.png";
 import imgOne from "../../../assets/images/threeStepGuide/imgOne.png";
-import imgTwo from "../../../assets/images/threeStepGuide/imgTwo.png";
+// import imgTwo from "../../../assets/images/threeStepGuide/imgTwo.png";
 import checkCircle from "../../../assets/images/threeStepGuide/checkCircle.png";
 import plusCircle from "../../../assets/images/threeStepGuide/plusCircle.png";
 import send from "../../../assets/images/threeStepGuide/send.png";
+import ManImg from "../../../assets/images/threeStepGuide/man.png";
 import cross from "../../../assets/images/threeStepGuide/cross.png";
 // import cross from "../../../assets/images/threeStepGuide/cross.png";
 
@@ -66,7 +67,7 @@ const ThreeStepFlow = () => {
 
                 <div className="d-flex mt-3">
                   <div>
-                    <Image src={imgOne} />
+                    <Image src={imgOne} alt="Img One " />
                   </div>
                   <div>
                     <p className={`ms-3 mb-0 ${styles.cardTwoPara}`}>
@@ -81,7 +82,7 @@ const ThreeStepFlow = () => {
 
                 <div className="d-flex mt-3">
                   <div>
-                    <Image src={imgTwo} />
+                    <Image src={ManImg} alt="Image two" />
                   </div>
                   <div>
                     <p className={`ms-3 mb-0 ${styles.cardTwoPara}`}>
