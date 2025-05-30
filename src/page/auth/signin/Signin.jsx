@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 function Signin() {
   return (
     <Container fluid>
-      <Row>
+      <Row className="" style={{ minHeight: "100vh" }}>
         <Col
           md={6}
           lg={6}
@@ -29,43 +29,6 @@ function Signin() {
             <Image src={homeLogo} className="mt-5" />
             <div className={`${styles.formDiv}`}>
               <Form className="mt-4 p-4">
-                {/* <div className="d-flex justify-content-center mt-3 mb-4">
-                  <div
-                    className="px-3 py-2 rounded-1 w-100"
-                    style={{ background: "#F5F5F5" }}
-                  >
-                    <ToggleButtonGroup
-                      className="w-full"
-                      type="checkbox"
-                      value={"aa"}
-                    >
-                      <ToggleButton
-                        size="lg"
-                        variant="light"
-                        id="tbg-btn-1"
-                        value={1}
-                        className="px-5 me-3"
-                      >
-                        Login
-                      </ToggleButton>
-                      <ToggleButton
-                        id="tbg-btn-2"
-                        variant="light"
-                        value={2}
-                        className="px-5 me-2"
-                        as={Link}
-                        to="/register"
-                      >
-                        <Link
-                          to="/register"
-                          className="text-black text-decoration-none fs-5"
-                        >
-                          Register
-                        </Link>
-                      </ToggleButton>
-                    </ToggleButtonGroup>
-                  </div>
-                </div> */}
                 <div className="d-flex justify-content-center mt-3 mb-4">
                   <div
                     className="px-3 py-2 rounded-1 w-100"
@@ -141,17 +104,27 @@ function Signin() {
           </Col>
         </Col>
         <Col md={6} lg={6} xl={6} xxl={6} className="p-0">
-          <Image
-            src={rigthColumnImage}
-            alt="Responsive"
-            // fluid
-            style={{
-              objectPosition: "bottom",
-              objectFit: "cover",
-              height: "100vh",
-              width: "100%",
-            }}
-          />
+          <div>
+            <Image
+              src={rigthColumnImage}
+              alt="Responsive"
+              className="fluid"
+              style={{
+                minHeight: "100vh",
+                width: "100%",
+                height: "100%",
+                overflowY: "hidden",
+              }}
+
+              // style={{
+              //   objectPosition: "center",
+              //   objectFit: "cover",
+              //   minHeight: "100vh",
+              //   height: "100%",
+              //   width: "100%",
+              // }}
+            />
+          </div>
         </Col>
       </Row>
     </Container>
