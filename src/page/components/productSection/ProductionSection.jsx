@@ -123,7 +123,7 @@ const productList = [
 
 function ProductionSection() {
   return (
-    <div className={`container-xxl ${styles.mainDiv}`}>
+    <div className={`container-xxl  ${styles.mainDiv}`}>
       <div className="d-flex justify-content-center mb-4">
         <h2>
           <span className={styles.greenText}>最新售盤及即走盤</span>

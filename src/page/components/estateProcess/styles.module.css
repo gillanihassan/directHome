@@ -1,67 +1,68 @@
-.mainDIv{
-  background-color: #E3F3F3;
-  padding: 3rem;
+.mainDIv {
+  background-color: #e3f3f3;
+  padding: 6rem 4rem;
 }
-.customImage{
-  border-bottom: 1px solid #004F59;
+.customImage {
+  border-bottom: 1px solid #004f59;
 }
-.customHeading{
-  color: #004F59;
+.customHeading {
+  color: #004f59;
   font-family: "Inter";
   font-weight: 700;
   font-size: 35px;
   width: 100%;
   max-width: 365px;
 }
-.customPara{
+.customPara {
   color: #808080;
   font-family: "Inter";
+  font-weight: 400;
   font-size: 28px;
   line-height: 28px;
 }
-.btnOne{
-  background-color: #E0AF54;
+.btnOne {
+  background-color: #e0af54;
   border-radius: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 700;
-  padding: 0.5rem 2rem;
+  padding: 12px 36px;
   border: none;
 }
-.btnOne:hover{
-  background-color: #E0AF54;
-  color: #FFFFFF;
+.btnOne:hover {
+  background-color: #e0af54;
+  color: #ffffff;
 }
-.btnTwo{
-  background-color: #E3F3F3;
-  border: 1px solid #E0AF54;
-  color: #E0AF54;
+.btnTwo {
+  background-color: #e3f3f3;
+  border: 1px solid #e0af54;
+  color: #e0af54;
   font-family: "Inter";
   font-weight: 700;
   font-size: 16px;
-  padding: 0.4rem 2.7rem;
+  padding: 12px 36px;
 }
-.btnTwo:hover{
-  background-color: #E3F3F3;
-  border: 1px solid #E0AF54;
-  color: #E0AF54;
+.btnTwo:hover {
+  background-color: #e3f3f3;
+  border: 1px solid #e0af54;
+  color: #e0af54;
 }
 @media (max-width: 1200px) {
-  .customImage{
+  .customImage {
     width: 100%;
     max-width: 500px;
   }
 }
 @media (max-width: 768px) {
-  .customImage{
+  .customImage {
     width: 100%;
     max-width: 565px;
     margin-top: 3rem;
   }
 }
 @media (max-width: 576px) {
-  .mainDIv{
+  .mainDIv {
     padding: 1rem;
   }
 }

@@ -13,7 +13,7 @@ function AuthenticProperties() {
         幫你查冊，唔怕假盤！
       </Button>
 
-      <h2 className={`mt-3 mb-4 ${styles.customHeading}`}>
+      <h2 className={`mt-0 mb-4 ${styles.customHeading}`}>
         買樓遇假盤？怕遇人不熟？DirectHome 已經查冊認證所有放盤，
         幫你過濾風險，睇樓安心無煩惱。
       </h2>
@@ -36,7 +36,7 @@ function AuthenticProperties() {
                     color: "white",
                   }}
                 >
-                  <h3 className={` mt-4 p-3 ${styles.columnHeading}`}>
+                  <h3 className={` mt-1 p-2 ${styles.columnHeading}`}>
                     {idx === 0 ? "DirectHome 平台" : "傳統地產代理"}
                   </h3>
 

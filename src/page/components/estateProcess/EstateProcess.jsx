@@ -11,7 +11,7 @@ function EstateProcess() {
         <Col md={7} className="order-2 order-md-1">
           <Image src={img} className={`${styles.customImage}`} />
         </Col>
-        <Col md={5} className="order-1 order-md-2">
+        <Col md={5} className="mt-5 order-1 order-md-2">
           <h2 className={`${styles.customHeading}`}>
             買賣流程清晰透明，一站式平台搞掂哂!
           </h2>

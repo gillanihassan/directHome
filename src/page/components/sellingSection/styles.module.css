@@ -1,19 +1,19 @@
-.mainDiv{
-  background: linear-gradient(360deg, #D8A53F00 0%, #D8A53F 100%);
+.mainDiv {
+  background: linear-gradient(360deg, #d8a53f00 0%, #d8a53f 100%);
   padding: 3rem;
   /* border: 2px solid red; */
 }
-.topHeading{
-  color: #0B1B32;
+.topHeading {
+  color: #0b1b32;
   font-family: "Inter";
   font-size: 60px;
   font-weight: 600;
-  line-height: 60px;
+  line-height: 80px;
   width: 100%;
   max-width: 735px;
 }
-.customPara{
-  color: #0B1B32;
+.customPara {
+  color: #0b1b32;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
@@ -21,58 +21,71 @@
   width: 100%;
   max-width: 400px;
 }
-.customImg{
+.customImg {
   position: relative;
   top: 4.2rem;
 }
 @media (max-width: 1400px) {
-.customImg{
-  width: 100%;
-  max-width: 980px;
-}
+  .customImg {
+    width: 100%;
+    max-width: 980px;
+  }
 }
 @media (max-width: 992px) {
-.customImg{
-  top: 6.4rem;
-}
+  .customImg {
+    top: 6.4rem;
+  }
 }
 @media (max-width: 830px) {
-.customImg{
-  top: 10.3rem;
-}
+  .customImg {
+    top: 10.3rem;
+  }
 }
 @media (max-width: 768px) {
-.customImg{
-  /* width: 100%; */
-  width: 675px;
-}
+  .customImg {
+    /* width: 100%; */
+    width: 675px;
+  }
 }
 @media (max-width: 650px) {
-.customImg{
-  /* width: 100%; */
-  width: 600px;
-}
+  .customImg {
+    /* width: 100%; */
+    width: 600px;
+  }
 }
 @media (max-width: 600px) {
-.customImg{
-  /* width: 100%; */
-  width: 510px;
-}
+  .customImg {
+    /* width: 100%; */
+    width: 510px;
+  }
 }
 @media (max-width: 576px) {
-.mainDiv{
-  padding: 1rem;
-}
+  .mainDiv {
+    padding: 1rem;
+  }
+  .customImg {
+    top: 3.3rem;
+  }
 }
 @media (max-width: 500px) {
-.customImg{
-  /* width: 100%; */
-  width: 450px;
-}
+  .customImg {
+    /* width: 100%; */
+    width: 450px;
+  }
+  .topHeading {
+    font-size: 52px;
+    line-height: 68px;
+  }
 }
 @media (max-width: 450px) {
-.customImg{
-  /* width: 100%; */
-  width: 400px;
+  .customImg {
+    /* width: 100%; */
+    width: 400px;
+  }
 }
+@media (max-width: 446px) {
+  .topHeading {
+    font-size: 45px;
+    line-height: 58px;
+  }
 }
