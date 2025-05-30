@@ -1,4 +1,5 @@
 import AuthenticProperties from "./components/authenticProperties/AuthenticProperties";
+import BottomSearchSection from "./components/bottomSearchSection/BottomSearchSection ";
 import BusinessSection from "./components/businessSection/BusinessSection";
 import EstateProcess from "./components/estateProcess/EstateProcess";
 import Footer from "./components/footerSection/FooterSection";
@@ -20,6 +21,7 @@ function DirectHome() {
       <TopSection />
       <CustomNav />
       <HeroSection />
+      <BottomSearchSection />
       <BusinessSection />
       <AuthenticProperties />
       <EstateProcess />

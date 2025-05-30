@@ -1,17 +1,21 @@
-.customHeading{
+.mainDiv {
+  /* border: 2px solid red; */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /* Right and bottom */
+}
+.customHeading {
   color: #000000;
   font-weight: 600;
   font-size: 20px;
   font-family: "Inter";
 }
-.customParaTop{
+.customParaTop {
   color: #808080;
   font-size: 14px;
   font-weight: 400;
   font-family: "Inter";
 }
-.customParaTwo{
-  color: #E0AF54;
+.customParaTwo {
+  color: #e0af54;
   font-size: 14px;
   font-weight: 600;
   font-family: "Inter";

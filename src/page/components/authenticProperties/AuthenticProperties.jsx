@@ -20,7 +20,7 @@ function AuthenticProperties() {
 
       <Row className="g-4 align-items-center">
         <Col xs={12} md={12} lg={6} xl={6} xxl={6}>
-          <Image src={imgOne} fluid className="w-100" />
+          <Image src={imgOne} fluid className={`w-100  ${styles.customImg}`} />
         </Col>
 
         <Col xs={12} md={12} lg={6} xl={6} xxl={6}>

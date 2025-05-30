@@ -1,42 +1,58 @@
-.mainDiv{
+.mainDiv {
   /* border: 2px solid red; */
 }
-.customButton{
-  background-color: #FFFFFF;
+.customButton {
+  background-color: #ffffff;
   border-radius: 8px;
-  color: #004F59;
+  color: #004f59;
   font-weight: 400;
   font-size: 14px;
   font-family: "Inter";
 }
-.customButton:hover{
-  background-color: #FFFFFF;
-  color: #004F59;
+.customButton:hover {
+  background-color: #ffffff;
+  color: #004f59;
 }
-.customHeading{
-  color: #FFFFFF;
+.customHeading {
+  color: #ffffff;
   font-family: "Inter";
   font-size: 35px;
   width: 100%;
   max-width: 600px;
 }
-.columnHeading{
-  color: #0B1B32;
+.customImg {
+  position: relative;
+  top: 3rem;
+}
+.columnHeading {
+  color: #0b1b32;
   font-family: "Inter";
   font-weight: 600;
   font-size: 26px;
-  border-bottom: 1px solid #0B1B324D;
+  border-bottom: 1px solid #0b1b324d;
   margin-bottom: 5rem;
 }
-.leftColPara{
-  color: #0B1B32;
+.leftColPara {
+  color: #0b1b32;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
 }
-.rightColPara{
+.rightColPara {
   color: #808080;
   font-family: "Inter";
   font-size: 17px;
   font-weight: 400;
+}
+@media (max-width: 1270px) {
+  .customImg {
+    position: relative;
+    top: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .customImg {
+    position: relative;
+    top: 0rem;
+  }
 }

@@ -4,7 +4,7 @@ import Image from "react-bootstrap/Image";
 import sliderOne from "../../../assets/images/heroSection/sliderOne.png";
 import sliderTwo from "../../../assets/images/heroSection/sliderTwo.png";
 import sliderThree from "../../../assets/images/heroSection/sliderThree.png";
-import { Container, Form, Button, Tab, Nav, InputGroup } from "react-bootstrap";
+// import { Container, Form, Button, Tab, Nav, InputGroup } from "react-bootstrap";
 
 const HeroSection = () => {
   return (
@@ -73,79 +73,6 @@ const HeroSection = () => {
           </Row>
         </Carousel.Item>
       </Carousel>
-      <Container fluid className="bg-light py-4">
-        <Tab.Container defaultActiveKey="buy">
-          <Row className="d-flex justify-content-center align-items-center gy-2">
-            <Col md={4} className="d-">
-              <Button className={`w-100 py-4 ${styles.bottomBtn}`}>
-                我要買樓{" "}
-              </Button>
-            </Col>
-            <Col md={4} className="">
-              <Button className={`w-100 py-4 ${styles.bottomBtnTwo}`}>
-                我要租樓
-              </Button>
-            </Col>
-            <Col md={4} className="d-">
-              <Button className={`w-100 py-4 ${styles.bottomBtnTwo}`}>
-                業主
-              </Button>
-            </Col>
-          </Row>
-
-          <Tab.Content>
-            <Tab.Pane eventKey="buy">
-              <Container
-                className=" rounded p-4 shadow-sm"
-                style={{ backgroundColor: "#E3F3F3" }}
-              >
-                <Row
-                  className="g-3"
-                  style={{
-                    backgroundColor: "#FFFFFF",
-                    padding: "1.3rem",
-                    borderRadius: "10px",
-                  }}
-                >
-                  <Col md={3}>
-                    <InputGroup>
-                      <Form.Control placeholder="區域、地區、或分區" />
-                    </InputGroup>
-                  </Col>
-
-                  <Col md={2}>
-                    <Form.Select>
-                      <option>物業類型</option>
-                      <option>住宅</option>
-                      <option>商業</option>
-                    </Form.Select>
-                  </Col>
-
-                  <Col md={2}>
-                    <Form.Select>
-                      <option>價格</option>
-                      <option>0-100萬</option>
-                      <option>100萬以上</option>
-                    </Form.Select>
-                  </Col>
-
-                  <Col md={2}>
-                    <Form.Select>
-                      <option>平方呎</option>
-                      <option>500+</option>
-                      <option>1000+</option>
-                    </Form.Select>
-                  </Col>
-
-                  <Col md={2}>
-                    <Button className={`w-50 ${styles.formBtn}`}>搜尋</Button>
-                  </Col>
-                </Row>
-              </Container>
-            </Tab.Pane>
-          </Tab.Content>
-        </Tab.Container>
-      </Container>
     </div>
   );
 };

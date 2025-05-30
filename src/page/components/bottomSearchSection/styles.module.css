@@ -1,0 +1,46 @@
+.bottomBtn {
+  background-color: #e3f3f3;
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+.bottomBtn:hover {
+  background-color: #e3f3f3;
+  color: #000000;
+}
+
+.bottomBtnTwo {
+  background-color: #e3f3f3;
+  color: #000000;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+}
+.bottomBtnTwo:hover {
+  background-color: #e3f3f3;
+  color: #000000;
+}
+.formBtnLeft {
+  background-color: #ffffff;
+  border: 1px solid #004f59;
+  color: #004f59;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+}
+.formBtnLeft:hover {
+  background-color: #ffffff;
+  border: 1px solid #004f59;
+  color: #004f59;
+}
+
+.formBtn {
+  background-color: #004f59;
+  border: none;
+}
+.formBtn:hover {
+  background-color: #004f59;
+}

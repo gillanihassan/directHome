@@ -9,7 +9,7 @@ import imgFive from "../../../assets/images/businessSection/imgFive.png";
 
 function BusinessSection() {
   return (
-    <div className={`container-xxl mt-5 p-4 ${styles.mainDiv}`}>
+    <div className={`container-xxl mt-5 mb-5 p-4  ${styles.mainDiv}`}>
       <Row className="justify-content-center gx-5">
         <Col xs={5} sm={5} md={2} lg={2} xl={2} xxl={2}>
           <Image src={imgOne} />

@@ -10,18 +10,14 @@ import styles from "./styles.module.css";
 
 function CustomNav() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary p-0">
+    <Navbar expand="lg" className="bg-body-tertiary p-0 mt-1">
       <div className="container-xxl">
         <Navbar.Brand href="#">
           <Image src={navLogo} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="mx-auto my-2 my-lg-0"
-            style={{ maxHeight: "100px" }}
-            navbarScroll
-          >
+          <Nav className="mx-auto d-flex gap-4 " navbarScroll>
             <Nav.Link className={styles.customLinks}>買樓</Nav.Link>
             <Nav.Link className={styles.customLinks}>租屋</Nav.Link>
             <Nav.Link className={styles.customLinks}>新盤 </Nav.Link>
