@@ -23,11 +23,11 @@ function Signin() {
           lg={6}
           xl={6}
           xxl={6}
-          className={`p-5 d-flex flex-column align-items-center ${styles.leftColumn}`}
+          className={`p-3 p-md-5 d-flex flex-column align-items-center  ${styles.leftColumn}`}
         >
-          <Col xs={12} xxl={8}>
-            <Image src={homeLogo} className="mt-5" />
-            <div className={`${styles.formDiv}`}>
+          <Col xs={12} xxl={7}>
+            <Image src={homeLogo} className="mb-2 mb-md-5" />
+            <div className={`mt-0 mt-md-5 ${styles.formDiv}`}>
               <Form className="mt-4 p-4">
                 <div className="d-flex justify-content-center mt-3 mb-4">
                   <div
@@ -46,7 +46,7 @@ function Signin() {
                         variant="light"
                         id="tbg-btn-1"
                         value={1}
-                        className="w-50 me-2"
+                        className={`w-50 me-2 ${styles.loginBtn}`}
                       >
                         Login
                       </ToggleButton>
@@ -55,16 +55,16 @@ function Signin() {
                         as={Link}
                         to="/register"
                         id="tbg-btn-2"
-                        variant="light"
+                        variant="li"
                         value={2}
-                        className="w-50 text-black fs-5"
+                        className="w-50"
                       >
                         <Link
                           to="/register"
-                          className="text-black text-decoration-none fs-5"
+                          className={`text-decoration-none ${styles.registerBtn}`}
                         >
                           Register
-                        </Link>{" "}
+                        </Link>
                       </ToggleButton>
                     </ToggleButtonGroup>
                   </div>
@@ -88,7 +88,7 @@ function Signin() {
                   </Form.Label>
                   <Form.Control type="email" placeholder="name@example.com" />
                 </Form.Group>
-                <button className={`w-100 mt-3 ${styles.customButtonOne}`}>
+                <button className={`w-100 mt-1 ${styles.customButtonOne}`}>
                   Login
                 </button>
                 <button className={`w-100 mt-3 ${styles.customButtonTwo}`}>
@@ -115,14 +115,6 @@ function Signin() {
                 height: "100%",
                 overflowY: "hidden",
               }}
-
-              // style={{
-              //   objectPosition: "center",
-              //   objectFit: "cover",
-              //   minHeight: "100vh",
-              //   height: "100%",
-              //   width: "100%",
-              // }}
             />
           </div>
         </Col>
