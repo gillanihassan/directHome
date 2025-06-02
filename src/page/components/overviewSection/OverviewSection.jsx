@@ -14,7 +14,7 @@ import imgTwo from "../../../assets/images/overviewSection/imgTwo.png";
 
 const OverviewSection = () => {
   return (
-    <div className={`container-xxl py-5 ${styles.mainDiv}`}>
+    <div className={`container-xxl py-5  ${styles.mainDiv}`}>
       <div className="text-center mb-5">
         <h2 className={`${styles.topHeading}`}>這是一段隨機的文本</h2>
         <p className={`mt-4 ${styles.topPara}`}>
@@ -23,7 +23,7 @@ const OverviewSection = () => {
       </div>
 
       {/* Cards Section */}
-      <Row className="mb-5">
+      <Row className="mb-5 gy-4">
         <Col md={6}>
           <Card className={`${styles.card}`}>
             <Card.Img src={imgOne} alt="image1" />
@@ -71,7 +71,7 @@ const OverviewSection = () => {
       </Row>
 
       {/* Subscription Box */}
-      <div className={`p-4 ${styles.bottomDiv}`}>
+      <div className={`p-4 p-md-5  ${styles.bottomDiv}`}>
         <Row className="align-items-center">
           <Col md={6}>
             <h4 className={`${styles.bottomHeading}`}>訂閱更新</h4>

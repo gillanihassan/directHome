@@ -7,7 +7,7 @@ const FormCalculator = () => {
       className={`container-xxl   mt-5 ${styles.mainDiv}`}
       style={{ backgroundColor: "" }}
     >
-      <Row>
+      <Row className="p-1 p-md-3">
         <Col md={6}>
           <h2 className={`${styles.mainHeading}`}>按揭計算</h2>
         </Col>
@@ -16,20 +16,28 @@ const FormCalculator = () => {
           className="d-flex justify-content-center align-items-center"
         >
           <div className={`  ${styles.formDiv}`}>
-            <Form className="p-4">
+            <Form className="p-1 p-md-5">
               <Row className="mb-4">
                 <Col>
                   <Form.Label className={`${styles.formLabel}`}>
                     物業價值
                   </Form.Label>
-                  <Form.Control type="text" placeholder="X,XXX,XXX" />
+                  <Form.Control
+                    type="text"
+                    placeholder="X,XXX,XXX"
+                    className={`${styles.formControl}`}
+                  />
                 </Col>
                 <Col>
                   <Form.Label className={`${styles.formLabel}`}>
                     按揭年息
                   </Form.Label>
                   <InputGroup>
-                    <Form.Control type="text" placeholder="X,XXX,XXX" />
+                    <Form.Control
+                      type="text"
+                      placeholder="X,XXX,XXX"
+                      className={`${styles.formControl}`}
+                    />
                     <InputGroup.Text className={`${styles.inputGroup}`}>
                       %
                     </InputGroup.Text>
@@ -43,7 +51,11 @@ const FormCalculator = () => {
                     貸款比率
                   </Form.Label>
                   <InputGroup>
-                    <Form.Control type="text" placeholder="X,XXX,XXX" />
+                    <Form.Control
+                      type="text"
+                      placeholder="X,XXX,XXX"
+                      className={`${styles.formControl}`}
+                    />
                     <InputGroup.Text className={`${styles.inputGroup}`}>
                       年
                     </InputGroup.Text>
@@ -54,7 +66,11 @@ const FormCalculator = () => {
                     按揭還款期
                   </Form.Label>
                   <InputGroup>
-                    <Form.Control type="text" placeholder="X,XXX,XXX" />
+                    <Form.Control
+                      type="text"
+                      placeholder="X,XXX,XXX"
+                      className={`${styles.formControl}`}
+                    />
                     <InputGroup.Text className={`${styles.inputGroup}`}>
                       %
                     </InputGroup.Text>

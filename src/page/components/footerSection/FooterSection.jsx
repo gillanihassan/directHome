@@ -7,15 +7,6 @@ import iconFive from "../../../assets/images/footerSection/iconFive.png";
 import iconSix from "../../../assets/images/footerSection/iconSix.png";
 import iconSeven from "../../../assets/images/footerSection/iconSeven.png";
 import iconEight from "../../../assets/images/footerSection/iconEight.png";
-// import {
-//   FaFacebookF,
-//   FaInstagram,
-//   FaLinkedinIn,
-//   FaTwitter,
-//   FaMapMarkerAlt,
-//   FaPhoneAlt,
-//   FaEnvelope,
-// } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -43,14 +34,14 @@ const Footer = () => {
           </Col>
           <Col
             md={6}
-            className={`d-flex flex-column justify-content-center text-start text-md-center ${styles.colRight}`}
+            className={`d-flex justify-content-start justify-content-md-center ${styles.colRight}`}
           >
             <div>
-              <h6 className={`${styles.linkHeadingTwo}`}>聯絡</h6>
+              <h6 className={`mb-5 ${styles.linkHeadingTwo}`}>聯絡</h6>
 
-              <div className="d-flex mt-4 justify-content-start justify-content-md-center">
+              <div className="d-flex">
                 <Image src={iconOne} className={`${styles.footerIcon}`} />
-                <p className={`mx-2 ${styles.footerPara}`}>
+                <p className={`mx-3 ${styles.footerPara}`}>
                   地址: 中國某城市
                   <br /> 4樓 03室-1958
                   <br /> 某社 Incomoda 1140室
@@ -58,17 +49,17 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="d-flex mt-4 justify-content-start justify-content-md-center">
+              <div className="d-flex">
                 <Image src={iconOne} className={`${styles.footerIcon}`} />
-                <p className={`mx-2  ${styles.footerPara}`}>
+                <p className={`mx-3  ${styles.footerPara}`}>
                   {" "}
                   (xx) (x) xxx xx xx{" "}
                 </p>
               </div>
 
-              <div className="d-flex mt-4 justify-content-start justify-content-md-center">
+              <div className="d-flex">
                 <Image src={iconOne} className={`${styles.footerIcon}`} />
-                <p className={`mx-2 ${styles.footerPara}`}>
+                <p className={`mx-3 ${styles.footerPara}`}>
                   contacto@directhome.com
                 </p>
               </div>

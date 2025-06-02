@@ -30,7 +30,7 @@ const ThreeStepFlow = () => {
         <Col sm={12} md={6} lg={4}>
           <Card className={`border-0 h-100`}>
             <Card.Body
-              className={`shadow-sm rounded-2 py-5 px-5 d-flex justify-content-center align-items-center ${styles.cardOne}`}
+              className={`shadow-sm rounded-2 py-5 px-3 px-md-5 d-flex justify-content-center align-items-center ${styles.cardOne}`}
             >
               <div
                 className={`d-flex flex-column justify-content-center align-items-center shadow-md w-100 ${styles.cardDiv}`}
@@ -56,7 +56,7 @@ const ThreeStepFlow = () => {
         <Col sm={12} md={6} lg={4}>
           <Card className={`border-0 h-100`}>
             <Card.Body
-              className={`shadow-sm rounded-2 py-5 px-5 d-flex justify-content-center align-items-center ${styles.cardTwo}`}
+              className={`shadow-sm rounded-2 py-5 px-3 px-md-5 d-flex justify-content-center align-items-center ${styles.cardTwo}`}
             >
               <div
                 className={`d-flex flex-column justify-content-start align-items-start p-4  shadow-md  ${styles.cardDiv}`}
@@ -124,7 +124,7 @@ const ThreeStepFlow = () => {
         <Col sm={12} md={6} lg={4}>
           <Card className={`border-0 h-100`}>
             <Card.Body
-              className={`shadow-sm rounded-2 py-5 px-5 d-flex justify-content-center align-items-center ${styles.cardOne}`}
+              className={`shadow-sm rounded-2 py-5 px-3 px-md-5 d-flex justify-content-center align-items-center ${styles.cardOne}`}
             >
               <div
                 className={`d-flex flex-column justify-content-start align-items-start p-4  shadow-md  ${styles.cardDiv}`}

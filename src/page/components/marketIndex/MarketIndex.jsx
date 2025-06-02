@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Bar } from "react-chartjs-2";
 import styles from "./styles.module.css";
@@ -14,6 +14,20 @@ import {
 ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
 const MarketIndex = () => {
+  // Responsive barThickness setup
+  const [barThickness, setBarThickness] = useState(
+    window.innerWidth >= 768 ? 110 : 25
+  );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setBarThickness(window.innerWidth >= 768 ? 110 : 40);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const data = {
     labels: [
       "志争花園",
@@ -30,7 +44,7 @@ const MarketIndex = () => {
         data: [600, 680, 600, 750, 720, 615, 1000],
         backgroundColor: "#e3f3f3",
         borderRadius: 10,
-        barThickness: 120,
+        barThickness: barThickness, // <-- dynamic
       },
     ],
   };
@@ -56,7 +70,7 @@ const MarketIndex = () => {
   };
 
   return (
-    <div className={`container-xxl py-5 ${styles.mainDiv}`}>
+    <div className={`container-xxl py-2 ${styles.mainDiv}`}>
       <Row className="mt-5">
         <Col md={6} className="px-5">
           <h4 className={`${styles.topHeading}`}>香港房地產市場指數</h4>
@@ -96,6 +110,10 @@ const MarketIndex = () => {
           </div>
         </Col>
       </Row>
+
+      {/* <div className="px-5 pt-4">
+        <Bar data={data} options={options} height={100} />
+      </div> */}
 
       <div className="px-5 pt-4">
         <Bar data={data} options={options} height={100} />

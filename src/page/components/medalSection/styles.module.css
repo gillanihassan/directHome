@@ -1,20 +1,25 @@
-.col{
-  /* border: 2px solid red; */
-  background-color: linear-gradient(to right,rgb(0, 255, 255), #00828233);
+.col {
+  background-color: linear-gradient(to right, rgb(0, 255, 255), #00828233);
 }
-.card{
+.card {
   width: 25rem;
-  background: linear-gradient(to right, #00828233 100%, #E3F3F3 10%);
+  background: linear-gradient(
+    90deg,
+    #e3f3f3 25.48%,
+    rgba(0, 130, 130, 0.2) 100%
+  );
   border: none;
+  border-top-left-radius: 12rem;
+  border-bottom-left-radius: 12rem;
 }
-.CardHeading{
+.CardHeading {
   color: #000000;
   font-family: "Inter";
   font-weight: 600;
   font-size: 25px;
 }
-.cardPara{
-  color: #004F59;
+.cardPara {
+  color: #004f59;
   font-family: "Inter";
   font-weight: 400;
   font-size: 16px;
