@@ -29,7 +29,12 @@ function Auth() {
           style={{ minHeight: "100vh" }}
         >
           <Col xs={12} xxl={7}>
-            <Image src={homeLogo} className="mb-2 mb-md-4" />
+            <Image
+              src={homeLogo}
+              className={`mb-2 ${
+                activePage === "login" ? "mb-md-5" : "mb-md-2"
+              }`}
+            />
             <div className={`mt-0 mt-md-5 ${styles.formDiv}`}>
               <div className="mt-4 p-4">
                 <div className="d-flex justify-content-center mt-3 mb-4">
