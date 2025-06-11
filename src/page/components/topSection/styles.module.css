@@ -1,19 +1,19 @@
-.topPara{
-  background-color: #E3F3F3;
+.topPara {
+  background-color: #e3f3f3;
   color: #000000;
   font-family: "Inter";
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 0.8px;
 }
 @media (max-width: 1400px) {
-  .topPara{
+  .topPara {
     line-height: 28px;
   }
 }
 @media (max-width: 720px) {
-  .topPara{
+  .topPara {
     line-height: 22px;
     font-size: 11px;
   }

@@ -15,8 +15,8 @@ import mapPin from "../../../assets/images/bottomSection/mapPin.png";
 
 const BottomSearchSection = () => {
   return (
-    <div className="bg-light py-4 container-xxl">
-      <div className="container-xxl">
+    <div className="bg-transparent  container-xxl ">
+      <div className="container-xxl " style={{ marginTop: "-80px" }}>
         <Tab.Container defaultActiveKey="buy">
           <Row className="d-flex justify-content-center align-items-center gy-2">
             <Col md={4}>
@@ -36,12 +36,13 @@ const BottomSearchSection = () => {
             </Col>
           </Row>
 
-          <Tab.Content>
+          <Tab.Content className="pb-5 ">
             <Tab.Pane eventKey="buy">
               <div
-                className="rounded p-4 shadow-sm container-xxl"
+                className="rounded p-4 pb-5  container-xxl"
                 style={{
                   backgroundColor: "#E3F3F3",
+                  boxShadow: "0px 8px 10px -4px rgba(12, 13, 15, 0.2)",
                 }}
               >
                 <Row

@@ -18,6 +18,15 @@
   border: 1px solid #e0af54;
   color: #e0af54;
 }
+.buttonOne:focus,
+.buttonOne:active,
+.buttonOne:focus:active {
+  background-color: #ffffff !important;
+  border: 1px solid #e0af54 !important;
+  color: #e0af54 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 .buttonTwo {
   background-color: #e0af54;
   border: 1px solid #e0af54;
@@ -31,4 +40,13 @@
   background-color: #e0af54;
   border: 1px solid #e0af54;
   color: #ffffff;
+}
+.buttonTwo:focus,
+.buttonTwo:active,
+.buttonTwo:focus:active {
+  background-color: #e0af54 !important;
+  border: 1px solid #e0af54 !important;
+  color: #ffffff !important;
+  outline: none !important;
+  box-shadow: none !important;
 }

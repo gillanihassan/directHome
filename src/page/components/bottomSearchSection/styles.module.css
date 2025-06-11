@@ -4,6 +4,8 @@
   font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   border: none;
 }
 .bottomBtn:hover {
@@ -18,6 +20,7 @@
   font-weight: 400;
   font-size: 20px;
   border: none;
+  opacity: 0.6;
 }
 .bottomBtnTwo:hover {
   background-color: #e3f3f3;

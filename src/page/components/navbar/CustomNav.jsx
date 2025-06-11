@@ -11,7 +11,7 @@ import styles from "./styles.module.css";
 function CustomNav() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary p-0 mt-1">
-      <div className="container-xxl">
+      <div className="container-xxl px-5">
         <Navbar.Brand href="#">
           <Image src={navLogo} />
         </Navbar.Brand>
