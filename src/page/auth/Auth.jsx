@@ -49,10 +49,10 @@ function Auth() {
                     >
                       <ToggleButton
                         size="lg"
-                        variant="light"
                         id="tbg-btn-1"
                         value={1}
                         className={`w-50 me-2 ${styles.loginBtn}`}
+                        variant={activePage === "login" ? "light" : "li"}
                         onClick={() => setActivePage("login")}
                       >
                         Login
@@ -60,10 +60,10 @@ function Auth() {
 
                       <ToggleButton
                         id="tbg-btn-2"
-                        variant="li"
                         value={2}
-                        onClick={() => setActivePage("register")}
                         className="w-50"
+                        variant={activePage === "register" ? "light" : "li"}
+                        onClick={() => setActivePage("register")}
                       >
                         Register
                       </ToggleButton>
@@ -106,7 +106,13 @@ function Auth() {
                     </button>
                     <p className={`text-center mt-4 ${styles.footerPara}`}>
                       Don’t have an account?{" "}
-                      <span className={styles.footerSpan}>Register now</span>
+                      <span
+                        className={` text-decoration-none ${styles.footerSpan}`}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => setActivePage("register")}
+                      >
+                        Register now
+                      </span>
                     </p>
                   </Form>
                 )}
@@ -163,14 +169,18 @@ function Auth() {
                     </Row>
 
                     <Form.Group className="mb-4 mt-1">
-                      <Form.Label className={styles.formLabel}>
+                      <Form.Label
+                        className={styles.formLabel}
+                        style={{ cursor: "pointer" }}
+                      >
                         I am a
                       </Form.Label>
-                      <Form.Select
-                        disabled
-                        style={{ backgroundColor: "white" }}
-                      >
-                        <option value="">Buyer</option>
+                      <Form.Select style={{ backgroundColor: "white" }}>
+                        <option value="buyer">Buyer</option>
+                        <option value="">Select</option>
+
+                        <option value="seller">Seller</option>
+                        <option value="agent">Agent</option>
                       </Form.Select>
                     </Form.Group>
 
@@ -199,8 +209,14 @@ function Auth() {
                     </button>
 
                     <p className={`text-center mt-4 ${styles.footerPara}`}>
-                      Don’t have an account?{" "}
-                      <span className={styles.footerSpan}>Register now</span>
+                      Already have an account?{" "}
+                      <span
+                        className={` text-decoration-none ${styles.footerSpan}`}
+                        style={{ cursor: "pointer" }}
+                        onClick={() => setActivePage("login")}
+                      >
+                        Login
+                      </span>
                     </p>
                   </Form>
                 )}
