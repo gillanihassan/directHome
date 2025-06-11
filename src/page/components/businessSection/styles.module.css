@@ -1,6 +1,6 @@
 .mainDiv {
-  box-shadow: -2px 12px 5px 0px rgba(0, 0, 0, 0.15),
-    /* left */ 2px 12px 5px 0px rgba(0, 0, 0, 0.15); /* right */
+  box-shadow: -2px 3px 5px 0px rgba(0, 0, 0, 0.15),
+    2px 3px 5px 0px rgba(0, 0, 0, 0.15);
 }
 .customHeading {
   color: #000000;
