@@ -225,19 +225,12 @@ function Auth() {
           </Col>
         </Col>
         {activePage === "login" ? (
-          <Col
-            md={6}
-            lg={6}
-            xl={6}
-            xxl={6}
-            className="p-0 "
-            style={{ height: "100%" }}
-          >
+          <Col md={6} lg={6} xl={6} xxl={6} className="p-0">
             <div style={{ height: "100%" }}>
               <Image
                 src={rigthColumnImage}
                 alt="Responsive"
-                className="fluid"
+                className="img-fluid"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -252,11 +245,11 @@ function Auth() {
               <Image
                 src={rigthColumnImage}
                 alt="Responsive"
-                className="img-fluid w-100 h-100"
+                className="img-fluid"
                 style={{
-                  objectFit: "cover",
-                  height: "100%",
                   width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
                 }}
               />
             </div>
