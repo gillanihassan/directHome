@@ -30,6 +30,8 @@ function AuthenticProperties() {
                 <div
                   style={{
                     backgroundColor: idx === 0 ? "#E3F3F3" : "#FFFFFF",
+                    border:
+                      idx === 0 ? "2px solid #D8A53F  " : "2px solid #FFFFFF",
                     borderRadius: "15px",
                     height: "100%",
                     padding: "1rem",

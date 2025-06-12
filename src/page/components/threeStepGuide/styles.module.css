@@ -95,3 +95,9 @@
   width: 100%;
   max-width: 216px;
 }
+.threeStepBgRow {
+  background-image: url("../../../assets/images/threeStepGuide/bgimage.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

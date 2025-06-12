@@ -2,6 +2,11 @@
   /* border: 4px solid green; */
   margin-top: 5.2rem;
 }
+.mainCard {
+  width: 26rem;
+  /* border: 2px solid red; */
+  box-shadow: 0 4px 8px 0 #00000026;
+}
 .greenText {
   color: #004f59;
   font-family: "Inter";
@@ -50,7 +55,7 @@
   font-weight: 700;
   font-size: 16px;
   border: none;
-  padding: 0.6rem 2.5rem;
+  padding: 0.8rem 2.6rem;
 }
 .customBtn:hover {
   background-color: #e0af54;

@@ -1,45 +1,48 @@
-.mainDiv{
-  background-color: #004F59;
-  border-radius: 25px;
+.mainDiv {
+  background-color: #004f59;
+  border-radius: 28px;
   margin-top: 8rem;
+  /* border: 5px solid red; */
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
 }
-.topHeading{
-  color: #FFFFFF;
+.topHeading {
+  color: #ffffff;
   font-family: "Inter";
   font-weight: 600;
   font-size: 35px;
 }
-.topPara{
-  color: #E3F3F3;
+.topPara {
+  color: #e3f3f3;
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   width: 100%;
   max-width: 350px;
 }
-.colDiv{
-  border-left: 1px solid #FFFFFF;
+.colDiv {
+  border-left: 1px solid #ffffff;
   line-height: 1.4rem;
   padding: 8px;
 }
-.colRightHeading{
-  color: #FFFFFF;
+.colRightHeading {
+  color: #ffffff;
   font-weight: "Inter";
   font-weight: 400;
   font-size: 18px;
 }
-.colRightPara{
-  color: #E0AF54;
+.colRightPara {
+  color: #e0af54;
   font-weight: "Inter";
   font-weight: 600;
   font-size: 30px;
 }
-.colRightParaTwo{
-  color: #FFFFFF;
+.colRightParaTwo {
+  color: #ffffff;
   font-weight: "Inter";
   font-weight: 500;
   font-size: 18px;
 }
-.span{
-  color: #E0AF54;
+.span {
+  color: #e0af54;
 }

@@ -25,13 +25,13 @@ function Auth() {
           lg={6}
           xl={6}
           xxl={6}
-          className={`p-3 p-md-5 d-flex flex-column align-items-center justify-content-center   ${styles.leftColumn}`}
+          className={`p-3 p-md-5 d-flex flex-column align-items-center justify-content-start   ${styles.leftColumn}`}
           style={{ minHeight: "100vh" }}
         >
           <Col xs={12} xxl={7}>
             <Image
               src={homeLogo}
-              className={`mb-2 ${
+              className={`mb-0 mt-3 ${
                 activePage === "login" ? "mb-md-5" : "mb-md-2"
               }`}
             />
@@ -224,27 +224,44 @@ function Auth() {
             </div>
           </Col>
         </Col>
-        <Col
-          md={6}
-          lg={6}
-          xl={6}
-          xxl={6}
-          className="p-0"
-          style={activePage === "login" ? { height: "100%" } : {}}
-        >
-          <div style={activePage === "login" ? { height: "100%" } : {}}>
-            <Image
-              src={rigthColumnImage}
-              alt="Responsive"
-              className="fluid"
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-            />
-          </div>
-        </Col>
+        {activePage === "login" ? (
+          <Col
+            md={6}
+            lg={6}
+            xl={6}
+            xxl={6}
+            className="p-0 "
+            style={{ height: "100%" }}
+          >
+            <div style={{ height: "100%" }}>
+              <Image
+                src={rigthColumnImage}
+                alt="Responsive"
+                className="fluid"
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                }}
+              />
+            </div>
+          </Col>
+        ) : (
+          <Col md={6} lg={6} xl={6} xxl={6} className="p-0">
+            <div style={{ height: "100%" }}>
+              <Image
+                src={rigthColumnImage}
+                alt="Responsive"
+                className="img-fluid w-100 h-100"
+                style={{
+                  objectFit: "cover",
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>
+          </Col>
+        )}
       </Row>
     </Container>
   );

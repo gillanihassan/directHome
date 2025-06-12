@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 const FormCalculator = () => {
   return (
     <div
-      className={`container-xxl   mt-5 ${styles.mainDiv}`}
+      className={`container-xxl   ${styles.mainDiv}`}
       style={{ backgroundColor: "" }}
     >
       <Row className="p-1 p-md-3">

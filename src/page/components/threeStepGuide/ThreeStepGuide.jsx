@@ -10,13 +10,12 @@ import {
 import styles from "./styles.module.css";
 import circle from "../../../assets/images/threeStepGuide/circle.png";
 import imgOne from "../../../assets/images/threeStepGuide/imgOne.png";
-// import imgTwo from "../../../assets/images/threeStepGuide/imgTwo.png";
 import checkCircle from "../../../assets/images/threeStepGuide/checkCircle.png";
 import plusCircle from "../../../assets/images/threeStepGuide/plusCircle.png";
 import send from "../../../assets/images/threeStepGuide/send.png";
 import ManImg from "../../../assets/images/threeStepGuide/man.png";
 import cross from "../../../assets/images/threeStepGuide/cross.png";
-// import cross from "../../../assets/images/threeStepGuide/cross.png";
+// import bgimage from "../../../assets/images/threeStepGuide/bgimage.png"
 
 const ThreeStepFlow = () => {
   return (
@@ -26,7 +25,7 @@ const ThreeStepFlow = () => {
         從登記到成交，全都一步步清晰完成， 唔使煩惱記
       </p>
 
-      <Row className="g-4">
+      <Row className={`g-4 ${styles.threeStepBgRow}`}>
         <Col sm={12} md={6} lg={4}>
           <Card className={`border-0 h-100`}>
             <Card.Body
@@ -186,64 +185,6 @@ const ThreeStepFlow = () => {
               </p>
             </Card.Footer>
           </Card>
-
-          {/* <div>
-            <Card
-              className={`border-0 shadow-sm py-5 px-5 h-100 d-flex justify-content-center align-items-center ${styles.cardOne} `}
-            >
-              <div className="bg-white w-100 rounded-3 px-3 py-2">
-                <div className="d-flex justify-content-between w-100">
-                  <div className="d-flex justify-content-center align-items-center">
-                    <Image src={imgOne} />
-                    <p className="mb-0 ms-2">Kishor</p>
-                    <Image className={imgOne} />
-                  </div>
-                  <div>
-                    <Image src={cross} />
-                  </div>
-                </div>
-                <div>
-                  <p className={`mt-4 ${styles.cardTimePara}`}>Wed 6:55 AM</p>
-                </div>
-                <div className="text-start">
-                  <p className={`${styles.cardParaThreeLeft}`}>
-                    I would be glad to help
-                  </p>
-                </div>
-                <div className="text-end mt-4">
-                  <p className={`mt-5 ${styles.cardParaThreeRight}`}>
-                    I would be glad to help
-                  </p>
-                </div>
-                <div className="text-end mt-4">
-                  <p className={`mt-5 ${styles.cardParaThreeRight}`}>
-                    I would be glad to help
-                  </p>
-                </div>
-                <div className="d-flex justify-content-between w-100 mt-4">
-                  <div className="d-flex justify-content-center align-items-center mt-1">
-                    <Image src={plusCircle} />
-                    <Form className="mx-3  ">
-                      <Form.Group>
-                        <Form.Control
-                          type="email"
-                          placeholder="Aa"
-                          className="rounded-3"
-                        />
-                      </Form.Group>
-                    </Form>
-                  </div>
-                  <div>
-                    <Image src={send} className="mt-2" />
-                  </div>
-                </div>
-              </div>
-            </Card>
-            <h5 className="fw-bold mt-2">放盤登記</h5>
-            <p className="text-muted small">
-              只需少過5分鐘填寫資料，即可免費放盤
-            </p>
-          </div> */}
         </Col>
       </Row>
     </div>

@@ -48,7 +48,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -60,7 +60,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -72,7 +72,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 6,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -84,7 +84,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 7,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -96,7 +96,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 8,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -108,7 +108,7 @@ const productList = [
     ],
   },
   {
-    id: 3,
+    id: 9,
     title: "物業名稱在此",
     price: "$XX,XXX,XXX",
     location: "XXXXXX",
@@ -139,7 +139,7 @@ function ProductionSection() {
             md={4}
             className="d-flex justify-content-center gy-4"
           >
-            <Card style={{ width: "25rem" }}>
+            <Card className={` ${styles.mainCard}`}>
               <Card.Img variant="top" src={productPhoto} />
               <Card.Body>
                 <div className="d-flex justify-content-between align-items-center">
